@@ -15,4 +15,4 @@ The data cleaning process entailed:
 The final data sets are: 
 
 * data_tidy.csv, which is the data produced from step 4
-* data_tidy_means.csv, which is the second, independent data set that aggregates the means by subject and activities
+* data_tidy_means.txt, which is the second, independent data set that aggregates the means by subject and activities
