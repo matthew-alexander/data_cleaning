@@ -42,5 +42,5 @@ write.csv(data, "data_tidy.csv", row.names = FALSE)
 # STEP 5: creating the independent dataset, aggregated by mean
 mean_aggregation = aggregate(data, by=list(activity = data$activity, subject=data$subject), mean)
 mean_aggregation[,3:4] <- NULL # these are some meaningless columns that didnt aggregate well
-write.csv(mean_aggregation, "data_tidy_means.csv", row.names = FALSE)
+write.table(mean_aggregation, "data_tidy_means.txt", row.names = FALSE)
 
